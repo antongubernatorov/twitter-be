@@ -4,6 +4,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 src/main/java/ru/gubern/twitterbe/config/JwtConstant.java
+src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
