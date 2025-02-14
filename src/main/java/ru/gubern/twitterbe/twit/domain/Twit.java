@@ -5,6 +5,7 @@ import lombok.Data;
 import ru.gubern.twitterbe.like.domain.Like;
 import ru.gubern.twitterbe.user.domain.User;
 
+import java.time.OffsetDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,6 +37,8 @@ public class Twit {
 
     @ManyToOne
     private Twit replyFor;
+
+    private OffsetDateTime createdAt;
 
     private boolean isReply;
 
